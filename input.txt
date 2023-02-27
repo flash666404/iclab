@@ -1,0 +1,6 @@
+import random
+
+with open('input.txt','a') as f:
+    for i in range(100000):
+        f.write(str(random.SystemRandom().randint(0,100000)))
+        f.write('\n')
